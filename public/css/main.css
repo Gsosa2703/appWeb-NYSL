@@ -1,0 +1,628 @@
+body {
+
+
+  background: url("fondoapp2.jpg") no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+
+
+}
+
+#pages > div {
+  display: none;
+}
+
+#pages > div.current {
+  display: block;
+}
+
+#register {
+  display: none;
+}
+
+#upcomingGames {
+  display: none;
+}
+
+.nav{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: fantasy;
+  
+}
+.recent-posts-list {
+  text-align: right;
+  background: #24303c;
+  opacity: 0.8;
+  width: 400px;
+  height: 80px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+
+
+}
+
+.mensajeria {
+  background: #24303c;
+}
+
+#chatMessenger {
+  display: none;
+  padding-top: 80px;
+}
+
+.second-messenger {
+  padding-top: 70px;
+}
+
+.chat {
+  background: white;
+  height: 70px;
+}
+
+.mail-post {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.post {
+  font-family: georgia;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.goal p {
+  position: absolute;
+  color: white;
+  margin-top: 100px;
+  font: italic bold 120% critter;
+  font-size: 35px ;
+  opacity: 0.6;
+}
+
+
+.balon {
+
+  width: 60px;
+  height: 50px;
+
+
+}
+#link3{
+  display: none;
+}
+
+.logo {
+  vertical-align: middle;
+  width: 225px;
+  height: 225px;
+
+
+}
+
+.segunda-imagen {
+  width: 250px;
+  height: 250px;
+  border-radius: 40px;
+
+}
+
+.tercera-imagen {
+  width: 225px;
+  height: 225px;
+
+}
+
+.principal {
+  width: 550px;
+  height: 550px;
+}
+
+.logo-home {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+}
+
+.barra {
+  background: linear-gradient(to left, black, white);
+  opacity: 0.7;
+}
+
+
+.team {
+  width: 100px;
+  height: 100px;
+
+}
+
+h5 {
+  color: white !important;
+  font-family: georgia;
+  font-size: 20px;
+}
+
+.text-register {
+  color: white !important;
+  font-family: georgia;
+  font-size: 15px;
+
+}
+
+.titulo {
+  color: white !important;
+  font-family: georgia;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  margin-left: 10px;
+
+}
+
+
+li {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.parrafo {
+  background: white;
+  opacity: 0.6;
+  width: 82%;
+  padding: 20px;
+  height: 280px;
+  border-radius: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.contact {
+  background: white;
+  opacity: 0.6;
+  width: 82%;
+  padding: 20px;
+  height: 100px;
+  border-radius: 30px;
+}
+
+.subtitulo {
+  text-align: center;
+}
+
+.contenedor-logo {
+  text-align: end;
+  width: 100%;
+
+}
+
+.pt-5 {
+  margin-top: 70px !important;
+}
+
+.pt-4 {
+  margin-top: 80px !important;
+}
+
+.pt-3 {
+  margin-top: 150px;
+}
+
+.mt-5 {
+  margin-top: 300px !important;
+
+}
+
+.pt-2 {
+  margin-top: 40px;
+}
+
+.teams {
+  font-size: 35px;
+  color: white;
+  font-family: verdana;
+  padding: 30px;
+  margin: 10px;
+}
+
+.team1 {
+  width: 200px;
+  height: 200px;
+
+}
+
+h1 {
+  color: white;
+
+  font-size: 50px;
+  letter-spacing: 10px;
+
+}
+
+section {
+  padding-top: 100px;
+}
+
+.btn-info {
+
+  background: darkblue;
+  border-color: darkblue;
+  width: 150px;
+
+}
+
+tr,
+td {
+  color: white !important;
+  background: black;
+  opacity: 0.8;
+  padding: 20px;
+}
+
+button {
+
+  padding: 30px;
+  margin: 10px;
+}
+
+.button-balon {
+  width: 30px;
+  height: 30px;
+ margin-right: 20px;
+
+}
+
+.button-home {
+  font-size: 15px;
+  font-family: georgia;
+  opacity: 0.7;
+
+}
+
+.img-fluid {
+  max-width: 150px;
+  height: auto;
+
+}
+
+label {
+  font-size: 14px;
+}
+
+.form-structor {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+
+
+.form-register {
+  width: 400px;
+  height: 420px;
+  background: #24303c;
+  padding: 30px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+}
+
+.form-register span {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-chat {
+  margin-top: px;
+  height: 250px !important;
+  width: 400px !important;
+}
+
+.titulo-chat {
+  font-family: georgia;
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.input {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+
+}
+
+#volver {
+  margin-top: 200px !important;
+}
+
+.input-message {
+  width: 100%;
+  height: 50%;
+
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #1f53c5;
+  font-size: 18px;
+
+}
+
+.button-register {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+#page-splash p {
+  color: white;
+  font-size: 15px;
+}
+
+.caja {
+  margin-top: 200px;
+  background: #24303c;
+  width: 250px;
+  height: 200px;
+}
+
+.container-messages {
+  background: white;
+  margin: 30px;
+  margin-top: 70px;
+  height: 50%;
+  width: 300px;
+}
+
+.games {
+  margin-top: 120px;
+}
+
+.button-game {
+  margin-top: 40px;
+
+  width: 100%;
+  height: 100px;
+  background: #24303c;
+
+}
+
+.button-game p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+.logo-mensaje {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.parrafo-mensaje {
+  float: left;
+}
+
+.boton-mensaje {
+  font-size: 20px;
+  text-align: center;
+}
+
+.input-chat {
+  width: 100%;
+}
+
+.barra-juegos {
+  background: black;
+  color: white;
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 990px) {
+  .form-structor {
+   margin: 50px;
+
+  }
+}
+@media screen and (max-width: 800px) {
+.form-register {
+  width: 300px;
+  height: 380px;
+  background: #24303c;
+  padding: 30px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+}
+}
+@media screen and (max-width: 800px) {
+.form-register span {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 800px) {
+
+.form-register p {
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #button-game {
+    margin-top: 40px;
+    width: 100%;
+    height: 300px !important;
+    background: #24303c;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .logo-mensaje {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .button-game p {
+    font-size: 13px;
+
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .boton-mensaje {
+    font-size: 15px;
+
+  }
+
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .goal {
+    font-size: 25px;
+
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .button-games {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .segunda-imagen {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tercera-imagen {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h5 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #tabla-lastGames {
+    margin-top: -50px !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .contenedor-logo {
+    position: fixed !important;
+    top: 10px;
+    left: -40px;
+    z-index: 100;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 990px) {
+  .titulo-index {
+    color: white;
+    font-size: 30px !important;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 990px) {
+  .parrafo-index {
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 990px) {
+  .segunda-imagen {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 990px) {
+  .logo-home {
+    margin-right: 30px !important;
+    width: 200px;
+    height: 200px;
+
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 990px) {
+  .tercera-imagen {
+    padding: 10px;
+    width: 140px;
+    height: 170px;
+    border-radius: 40px;
+
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 990px) {
+  .subtitulo-index {
+    color: white;
+    font-size: 10px !important;
+
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 990px) {
+  .goal {
+ font-size: 15px;
+
+  }
+}
